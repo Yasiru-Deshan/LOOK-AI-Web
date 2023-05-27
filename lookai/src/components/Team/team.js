@@ -22,7 +22,7 @@ const Team = () => {
         className="offerCardContainer"
         style={{
           display: "grid",
-          grid: "auto/ auto auto auto",
+         //grid: "auto/ auto auto auto",
 
           padding: "10px",
           justifyContent: "center",
@@ -79,7 +79,7 @@ const Team = () => {
         className="offerCardContainer"
         style={{
           display: "grid",
-          grid: "auto/ auto auto auto auto",
+          //grid: "auto/ auto auto auto auto",
 
           padding: "10px",
           justifyContent: "center",
