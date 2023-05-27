@@ -9,7 +9,8 @@ import {
          ServicesIcon,
          Servicesp
 } from './ServiceElements';
-import { Button } from '../ButtonElements';
+import { Buttong } from '../ButtonElements';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
     return (
@@ -20,8 +21,8 @@ const Services = () => {
             <ServicesIcon src={Icon1} />
             <ServicesH2>Topic Assessment</ServicesH2>
 
-            <Button
-              to="signup"
+            <Buttong
+              to="https://drive.google.com/drive/folders/1LIv1KXBx3eDsgn3ObvXon-SNzx-t09vJ?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -29,16 +30,18 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Project Charter</ServicesH2>
-            <Button
-              to="signup"
+
+            <Buttong
+              to="https://drive.google.com/drive/folders/1EDmR-Cp1o-__OwnPrjK1WAiJcPd2K5Cq?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -46,16 +49,18 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Project Proposal</ServicesH2>
-            <Button
-              to="signup"
+
+            <Buttong
+              to="https://drive.google.com/drive/folders/11xus-zYR7cbbsLaEuYLYjy3kYLLJzOwl?usp=drive_link"
               primary="true"
               dark="true"
               smooth={true}
@@ -63,16 +68,18 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Status Document I</ServicesH2>
-            <Button
-              to="signup"
+
+            <Buttong
+              to="https://drive.google.com/drive/folders/1o63zxrAnWaCSqgo8Q9jLutXVRChgRMjZ?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -80,16 +87,17 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Status Document II</ServicesH2>
-            <Button
-              to="signup"
+            <Buttong
+              to="https://drive.google.com/drive/folders/1yMkUwFN-bLo2wgQhP272s5bH9E4PdM9k?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -97,16 +105,17 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Research Paper</ServicesH2>
-            <Button
-              to="signup"
+            <Buttong
+              to="https://drive.google.com/drive/folders/1AyfytKPNNJ9p_emvPV98gRDPmU6E81FF?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -114,16 +123,17 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Final Report</ServicesH2>
-            <Button
-              to="signup"
+            <Buttong
+              to="https://drive.google.com/drive/folders/1fBkbGBWej-KyJ7Vboqb4v6tRIWogpTDv?usp=sharing"
               primary="true"
               dark="true"
               smooth={true}
@@ -131,16 +141,17 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
 
           <ServicesCard data-aos="fade-up">
             <ServicesIcon src={Icon1} />
             <ServicesH2>Poster</ServicesH2>
-            <Button
-              to="signup"
+            <Buttong
+              to="https://drive.google.com/drive/folders/12ue_pmRtwQAO8zzjkafDUkNyKNw9UMx3?usp=drive_link"
               primary="true"
               dark="true"
               smooth={true}
@@ -148,9 +159,10 @@ const Services = () => {
               spy={true}
               exact="true"
               offset={-80}
+              style={{ textDecoration: "none" }}
             >
               View
-            </Button>
+            </Buttong>
           </ServicesCard>
         </ServicesWrapper>
       </ServicesContainer>
