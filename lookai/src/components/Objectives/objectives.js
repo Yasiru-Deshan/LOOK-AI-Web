@@ -45,7 +45,7 @@ const Objectives = () => {
         margin: "auto",
         padding: "20px",
         paddingTop:'50px',
-        height: "600px",
+        //height: "600px",
         backgroundColor: "#37A7DF",
       }}
       id="scope"
